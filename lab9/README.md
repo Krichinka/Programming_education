@@ -87,3 +87,21 @@
 #### 5-8
 
 ![alt text](image-21.png)
+
+#### 9
+
+![alt text](image-22.png)
+
+#### 10-11 
+
+![alt text](image-23.png)
+
+#### 12
+
+![alt text](image-24.png)
+
+![alt text](image-25.png)
+
+Файлы отличаются в нескольких  файлах, в том числе и в наличии файла greeting.txt
+
+
