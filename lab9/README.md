@@ -104,4 +104,18 @@
 
 Файлы отличаются в нескольких  файлах, в том числе и в наличии файла greeting.txt
 
+#### 13 
+
+![alt text](image-26.png)
+
+![alt text](image-27.png)
+
+#### 14-16
+
+![alt text](image-28.png)
+
+#### 17
+
+![alt text](image-29.png)
+
 
