@@ -68,5 +68,22 @@
 ![alt text](image-16.png)
 
 #### 22
+
 ![alt text](image-17.png)
 
+#### Ветки и ff-merge
+
+#### 1
+![alt text](image-18.png)
+
+#### 2
+
+![alt text](image-19.png)
+
+#### 3-4
+
+![alt text](image-20.png)
+
+#### 5-8
+
+![alt text](image-21.png)
