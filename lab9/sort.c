@@ -64,7 +64,7 @@ void print(int arr[], int n)
 // Driver program to test above functions
 int main()
 {
-    int arr[] = { 170, 45, 75, 90, 802, 24, 2, 66 };
+    int arr[] = { 1700, 485, 775, 960, 8082, 24, 28, 646 };
     int n = sizeof(arr) / sizeof(arr[0]);
   
       // Radix sort function
