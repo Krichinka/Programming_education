@@ -1,15 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-typedef struct {
-    float x;
-    float y;
-} complex;
-
-complex* sum(complex* a, complex* b);
-complex* mult(complex* a, complex* b);
-void print_complex(complex* a);
-complex* input_complex(unsigned char n);
+#include "complex.h"
 
 complex* input_complex(unsigned char n) 
     {
@@ -57,16 +46,4 @@ complex* mult(complex* a, complex* b)
     temp->x = (a->x * b->x) - (a->y * b->y);
     temp->y = (a->x * b->y) + (a->y * b->x);
     return temp;
-}
-
-int main(unsigned char n)
-{
-    n = 3;
-    complex* chisla;
-    complex* Q;
-    chisla = input_complex(n);
-    Q = sum(&chisla[0], sum(mult(&chisla[1], &chisla[1]), sum(&chisla[1], &chisla[2])));
-    print_complex(Q);
-    free(Q);
-    free(chisla);
 }
