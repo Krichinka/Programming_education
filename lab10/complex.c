@@ -1,5 +1,6 @@
 #include "complex.h"
 
+
 complex* input_complex(unsigned char n) 
     {
         complex* chisla = malloc(n * sizeof(complex));
