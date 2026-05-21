@@ -1,0 +1,65 @@
+# Build folders
+build/
+*/build/
+cmake-build-*/
+out/
+bin/
+obj/
+Debug/
+Release/
+
+# C/C++ compiled files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+
+
+# CMake generated files
+CMakeFiles/
+*/CMakeFiles/
+CMakeCache.txt
+*/CMakeCache.txt
+cmake_install.cmake
+*/cmake_install.cmake
+Makefile
+*/Makefile
+CTestTestfile.cmake
+*/CTestTestfile.cmake
+DartConfiguration.tcl
+*/DartConfiguration.tcl
+Testing/
+*/Testing/
+compile_commands.json
+
+# Make generated files
+*.d
+*.gcno
+*.gcda
+*.gcov
+
+# Debug / sanitizer / profiling
+core
+core.*
+*.log
+*.trace
+*.prof
+*.profraw
+*.profdata
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
