@@ -1,32 +1,10 @@
 #include "smartphones.h"
-#define N 50
 
+float get_time_diff(struct timeval *start, struct timeval *end) {
+    return (end->tv_sec - start->tv_sec) + (end->tv_usec - start->tv_usec) / 1000000.0;
+}
 
-
-// smartphone** sort(smartphone** phones, char param)
-// {
-//     // switch (param)
-//     // {
-//     // case 'M':
-//     //     return phones_sort(phones, 40);
-//     //     break;
-//     // case 'B':
-//     //     return phones_sort(phones, 44);
-//     //     break;
-//     // case 'm':
-//     //     return phones_sort(phones, 0);
-//     //     break;
-//     // case 'P':
-//     //     return phones_sort(phones, 48);
-//     //     break;
-//     // default:
-//     //     break;
-//     // }
-// }
-
-
-
-smartphone** make_phones(const char brands[10][30]){
+smartphone** make_phones(const char brands[10][30], int N){
     
     smartphone** phones = calloc(N, sizeof(smartphone));
     for (int i = 0; i < N; i++)
@@ -47,7 +25,7 @@ smartphone** make_phones(const char brands[10][30]){
     return phones;
 }
 
-    smartphone** phones_sort(smartphone** phones, unsigned char param)
+    smartphone** phones_sort(smartphone** phones, unsigned char param, int N)
 {
     for (int i = 0; i < N - 1; i++) {
         int cur = i;
@@ -76,7 +54,7 @@ smartphone** make_phones(const char brands[10][30]){
 
 
 
-void print_phones(smartphone** phones)
+void print_phones(smartphone** phones, int N)
 {
     printf("%-4s %-25s %12s %14s %12s\n", "№", "Model", "Memory (GB)", "Battery (mAh)", "Price ($)");
     printf("---------------------------------------------------------------------\n");
